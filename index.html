@@ -90,7 +90,7 @@
         </div>
 
         <!--Second Tree Cards-->
-        <div class="row text-center mx-5 mt-4">
+        <div class="row text-center mx-5 mt-4 mb-5">
 
             <div class="col">
 
@@ -133,51 +133,87 @@
     <!--Form Container-->
     <div class="container">
 
-        <div class="row">
-
+        <div class="row bg-info text-center pt-2">
+            
             <div class="col">
-                <p>Want an Offer?</p>
+                <h4>WANT AN OFFER?</h4>
             </div>
         </div>
 
         <!--Form-->
-        <div class="row">
+        <div class="row bg-info">
 
             <div class="col">
-                <p>First name</p>
+                <form>
+                    <label for="exampleInputEmail1" class="form-label">First name</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">                
+                </form>
             </div>
 
             <div class="col">
-                <p>Last name</p>
-            </div>
-        </div>
-
-        <div class="row">
-
-            <div class="col">
-                <p>Email</p>
-            </div>
-
-            <div class="col">
-                <p>Hours requested</p>
+                <form>
+                    <label for="exampleInputEmail1" class="form-label">Last name</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">               
+                </form>
             </div>
         </div>
 
-        <div class="row">
+        <div class="row bg-info">
 
             <div class="col">
-                <p>Type of work</p>
+                <form>
+                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">               
+                </form>
             </div>
 
             <div class="col">
-                <p>Discont code</p>
+                <form>
+                    <label for="exampleInputEmail1" class="form-label">Hours requested</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">               
+                </form>
             </div>
         </div>
 
-        <div class="row">
+        <div class="row bg-info">
 
             <div class="col">
-                <p>Button</p>
+                <form>
+                    <label for="exampleInputEmail1" class="form-label">Type of work</label>
+                    <select id="disabledSelect" class="form-select">
+                        <option>Select the type of work...</option>
+                        <option>Caban</option>
+                        <option>Cake</option>
+                        <option>Circus</option>
+                        <option>Game</option>
+                        <option>Safe</option>
+                        <option>Submarine</option>
+                    </select>
+                </form>
+            </div>
+
+            <div class="col">
+                <form>
+                    <label for="exampleInputEmail1" class="form-label">Discont code</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">               
+                </form>
+            </div>
+        </div>
+
+        <div class="row bg-info">
+
+            <div class="col">                
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                  </div>
+            </div>            
+        </div>
+
+        <div class="row bg-info pb-5 text-center">
+
+            <div class="col">
+                <button type="submit" class="btn btn-warning">Send</button>
             </div>
         </div>
     </div>
